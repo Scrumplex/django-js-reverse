@@ -20,14 +20,7 @@ Django JS Reverse
 
 **Javascript url handling for Django that doesn’t hurt.**
 
-|
-|
-
-📣 This project is no longer maintained, and will not receive further updates. (https://github.com/jazzband/help/issues/247) 📣
-================================================================================================================================
-
-|
-|
+This package is now maintained by `Vinta Software <https://vintasoftware.com.br>`__ but it was originally created by `@ierror <https://github.com/ierror>`__. Many thanks to you, Bernhard.
 
 
 Overview
@@ -325,10 +318,10 @@ License
 `MIT <https://raw.github.com/ierror/django-js-reverse/master/LICENSE>`__
 
 
-Contact
+Support
 -------
 
-`@i_error <https://twitter.com/i_error>`__
+This project is currently maintained by `Vinta Software <https://vintasoftware.com>`__. If you need support please contact us on `contact@vintasoftware.com <mailto:contact@vintasoftware.com>`__.
 
 --------------
 
