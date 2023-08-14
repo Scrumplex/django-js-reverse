@@ -22,9 +22,18 @@ def read(*parts):
         return fp.read()
 
 
+def get_version(rel_path):
+    for line in read(rel_path).splitlines():
+        if line.startswith('__version__'):
+            delim = '"' if '"' in line else "'"
+            return line.split(delim)[1]
+    else:
+        raise RuntimeError("Unable to find version string.")
+
+
 setup(
     name='django-js-reverse',
-    version='0.10.1b1.dev0',
+    version=get_version("django_js_reverse/__init__.py"),
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
