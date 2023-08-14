@@ -37,6 +37,6 @@ setup(
         ]
     },
     install_requires=[
-        'Django>=1.5',
+        'Django>=3.2',
     ]
 )
