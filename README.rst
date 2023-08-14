@@ -8,9 +8,8 @@ Django JS Reverse
 .. image:: https://img.shields.io/travis/ierror/django-js-reverse/master.svg
    :target: https://travis-ci.org/ierror/django-js-reverse
 
-.. image:: https://img.shields.io/coveralls/ierror/django-js-reverse/master.svg
-   :alt: Coverage Status
-   :target: https://coveralls.io/r/ierror/django-js-reverse?branch=master
+.. image:: https://coveralls.io/repos/github/vintasoftware/django-js-reverse/badge.svg?branch=master
+   :target: https://coveralls.io/github/vintasoftware/django-js-reverse?branch=master
 
 .. image:: https://img.shields.io/github/license/ierror/django-js-reverse.svg
     :target: https://raw.githubusercontent.com/ierror/django-js-reverse/master/LICENSE
