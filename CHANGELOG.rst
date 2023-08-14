@@ -1,14 +1,14 @@
-0.10.2 (unreleased)
+0.10.3 (2023-08-14)
 ---------------------
 
 - Drop support to older version of Python and Django that aren't being officially supported anymore.
 
-0.10.1b1 (unreleased)
+0.10.1b1 (2023-08-14)
 ---------------------
 
 - Update for Django 4.0 and 4.1, Python 3.8, 3.9, 3.10
 
-0.10.1a1 (unreleased)
+0.10.1a1 (2023-08-14)
 ---------------------
 
 - Update pypi deploy username and token
