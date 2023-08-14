@@ -4,7 +4,6 @@ import codecs
 import os
 import sys
 from setuptools import setup, find_packages
-from django_js_reverse import VERSION
 
 if sys.version_info < (3, 7):
     INSTALL_REQUIRES = [
@@ -22,10 +21,11 @@ def read(*parts):
     with codecs.open(filename, encoding='utf-8') as fp:
         return fp.read()
 
-
+version_tuple = __import__('django_js_reverse').VERSION
+version = '.'.join([str(v) for v in version_tuple])
 setup(
     name='django-js-reverse',
-    version='.'.join([str(p) for p in VERSION]),
+    version=version,
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
