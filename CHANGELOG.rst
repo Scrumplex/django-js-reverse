@@ -1,4 +1,4 @@
-0.10.3 (2023-08-14)
+0.10.2 (2023-08-14)
 ---------------------
 
 - Drop support to older version of Python and Django that aren't being officially supported anymore.
