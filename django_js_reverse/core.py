@@ -3,10 +3,7 @@ import collections
 import json
 import re
 import sys
-if sys.version_info < (3, 7):
-    from distutils.version import LooseVersion
-else:
-    from packaging.version import parse as LooseVersion
+from distutils.version import LooseVersion
 
 import django
 from django.conf import settings
