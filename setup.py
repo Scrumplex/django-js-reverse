@@ -21,11 +21,19 @@ def read(*parts):
     with codecs.open(filename, encoding='utf-8') as fp:
         return fp.read()
 
-version_tuple = __import__('django_js_reverse').VERSION
-version = '.'.join([str(v) for v in version_tuple])
+
+def get_version(rel_path):
+    for line in read(rel_path).splitlines():
+        if line.startswith('__version__'):
+            delim = '"' if '"' in line else "'"
+            return line.split(delim)[1]
+    else:
+        raise RuntimeError("Unable to find version string.")
+
+
 setup(
     name='django-js-reverse',
-    version=version,
+    version=get_version("django_js_reverse/__init__.py"),
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
