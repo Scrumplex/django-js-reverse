@@ -1,3 +1,8 @@
+0.10.2 (unreleased)
+---------------------
+
+- Drop support to older version of Python and Django that aren't being officially supported anymore.
+
 0.10.1b1 (unreleased)
 ---------------------
 

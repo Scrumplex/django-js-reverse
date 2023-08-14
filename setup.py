@@ -11,7 +11,7 @@ if sys.version_info < (3, 7):
     ]
 else:
     INSTALL_REQUIRES = [
-        'Django>=1.5',
+        'Django>=3.2',
         'packaging>=21.3'
     ]
 
