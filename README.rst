@@ -12,7 +12,7 @@ Django JS Reverse
    :target: https://coveralls.io/github/vintasoftware/django-js-reverse?branch=master
 
 .. image:: https://img.shields.io/github/license/ierror/django-js-reverse.svg
-    :target: https://raw.githubusercontent.com/ierror/django-js-reverse/master/LICENSE
+    :target: https://raw.githubusercontent.com/vintasoftware/django-js-reverse/master/LICENSE
 
 .. image:: https://img.shields.io/pypi/wheel/django-js-reverse.svg
 
@@ -78,7 +78,7 @@ Install using ``pip`` …
 
 ::
 
-    git clone https://github.com/ierror/django-js-reverse.git
+    git clone https://github.com/vintasoftware/django-js-reverse.git
 
 Add ``'django_js_reverse'`` to your ``INSTALLED_APPS`` setting.
 
@@ -312,7 +312,7 @@ Running the test suite
 License
 -------
 
-`MIT <https://raw.github.com/ierror/django-js-reverse/master/LICENSE>`__
+`MIT <https://raw.github.com/vintasoftware/django-js-reverse/master/LICENSE>`__
 
 
 Support
